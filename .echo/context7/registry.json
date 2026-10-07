@@ -1,0 +1,8 @@
+{
+  "verified_on": "2026-10-06",
+  "libraries": [
+    { "package": "typescript", "version": "5.9.3", "library_id": "/microsoft/typescript/v5.9.3", "purpose": "Strict NodeNext compilation, declarations and noEmit typechecking" },
+    { "package": "vitest", "version": "4.1.11", "library_id": "/vitest-dev/vitest", "purpose": "TypeScript tests and single-run CLI; 4.1.6 docs plus general release/security query, patched to 4.1.11 based on npm audit GHSA-82fw-gwwq-j7x9; installed metadata resolves mixed-version excerpts" }
+  ],
+  "notes": "@types/node supplies declarations only; no third-party runtime APIs or SDK dependency. Node built-ins follow official Node documentation."
+}
